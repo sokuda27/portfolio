@@ -95,6 +95,15 @@
     display: block;
     margin: 0 auto;
   }
+
+  .proj-title {
+    font-size: 2.5rem; /* Sets the font size to be large */
+    font-weight: bold; /* Makes the text bold */
+    text-align: center; /* Centers the title horizontally */
+    margin: 20px 0; /* Adds space above and below the title */
+    color: #333; /* Sets the text color to a dark grey */
+    font-family: 'Arial', sans-serif; /* Specifies the font */
+  }
   
   /* Responsive Design: Mobile View */
   @media (max-width: 768px) {
