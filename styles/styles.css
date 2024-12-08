@@ -108,3 +108,17 @@
     }
   }
   
+  /* Project Page grid */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    gap: 10px; /* Space between items */
+    padding: 10px;
+  }
+
+  .grid-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
