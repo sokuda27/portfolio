@@ -3,93 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects</title>
+  <title>Projects — Sonam Okuda</title>
+  <meta name="description" content="Projects by Sonam Okuda spanning robotics, controls, machine learning, and mechanical systems.">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
   <!-- Header -->
   <header>
-    <h1>Sonam Okuda</h1>
+    <div class="header-inner">
+      <h1>Sonam Okuda</h1>
+      <p class="role">Mechanical engineering student, The Cooper Union</p>
+    </div>
   </header>
+  <div class="rule-scale"></div>
 
   <!-- Navigation Menu -->
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="projects.html">Projects</a></li>
+      <li><a href="projects.html" aria-current="page">Projects</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 
   <!-- Main Content -->
   <main>
+    <section>
+      <h2>Projects</h2>
 
-    <h2>Projects</h2>
-    <div class="grid-container">
+      <div class="project-list">
 
-      <div class="grid-item">
-        <section class="proj-section">
-          <div class="text">
-            <h3><a href="projects/mechatronics.html">Mechatronics Sumo Bot</a></h3>
-            <img src="project-images/mecha/3.jpg" alt="el-rayo-mcqueen" class="grid-image">
-            <p> Designed robot for sumo competition.</p>
+        <div class="project-row">
+          <div class="project-thumb">
+            <img src="project-images/mecha/3.jpg" alt="El Rayo McQueen sumo robot">
           </div>
-        </section>
-      </div>
+          <div class="project-body">
+            <span class="project-tag">Robotics</span>
+            <h3><a href="projects/mechatronics.html">Mechatronics Sumo Bot</a></h3>
+            <p>Designed a robot for sumo competition.</p>
+          </div>
+        </div>
 
-      <div class="grid-item">
-        <section class="proj-section">
-          <div class="text">
+        <div class="project-row">
+          <div class="project-thumb">
+            <img src="project-images/ddc/spatial_modes.jpg" alt="Spatial modes visualization">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Controls</span>
             <h3><a href="projects/ddc.html">Data-Driven Control</a></h3>
-            <img src="project-images/ddc/spatial_modes.jpg" alt="spatial modes" class="grid-image">
             <p>Independent study on model reduction and unsupervised learning methods for control.</p>
           </div>
-        </section>
-      </div>
+        </div>
 
-      <div class="grid-item">
-        <section class="proj-section">
-          <div class="text">
+        <div class="project-row">
+          <div class="project-thumb split">
+            <img src="project-images/datadriven/final-cover.png" alt="Model accuracy plot">
+            <img src="project-images/datadriven/final-cover2.png" alt="Correlation plot">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Machine learning</span>
             <h3><a href="projects/ddps.html">Data-Driven Problem Solving</a></h3>
-            <img src="project-images/datadriven/final-cover.png" alt="accuracy" class="grid-image">
-            <img src="project-images/datadriven/final-cover2.png" alt="correlation" class="grid-image">
             <p>Applications of machine learning in a mechanical engineering context.</p>
           </div>
-        </section>
-      </div>
+        </div>
 
-      <div class="grid-item">
-        <section class="proj-section">
-          <div class="text">
+        <div class="project-row">
+          <div class="project-thumb">
+            <img src="project-images/ml/ml-cover.png" alt="Partial dependence plot">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Machine learning</span>
             <h3><a href="projects/machinelearning.html">Machine Learning</a></h3>
-            <img src="project-images/ml/ml-cover.png" alt="partial dep" class="grid-image">
-            <p>General machine learning methods and techniques (linear and logistic regression, gradient-boosted trees, random forest, NMF).</p>
+            <p>General machine learning methods and techniques — linear and logistic regression, gradient-boosted trees, random forest, NMF.</p>
           </div>
-        </section>
-      </div>
+        </div>
 
-      <div class="grid-item">
-        <section class="proj-section">
-          <div class="text">
+        <div class="project-row">
+          <div class="project-thumb">
+            <img src="project-images/exp/demo2.jpg" alt="Plasma reactor demo">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Hardware design</span>
             <h3><a href="projects/experimentation.html">Plasma Reactor Redesign</a></h3>
-            <img src="project-images/exp/demo2.jpg" alt="exp-cover" class="grid-image">
-            <p>Resigned a plasma rig for CO2 decomposition.</p>
+            <p>Redesigned a plasma rig for CO2 decomposition.</p>
           </div>
-        </section>
-      </div>
+        </div>
 
-      <div class="grid-item">
-        <section class="proj-section">
-          <div class="text">
+        <div class="project-row">
+          <div class="project-thumb">
+            <img src="project-images/miliLab/mediapipe_example.png" alt="Body tracking example">
+          </div>
+          <div class="project-body">
+            <span class="project-tag">Sensing &amp; signal processing</span>
             <h3><a href="projects/mililab.html">Heartbeat Monitor</a></h3>
-            <img src="project-images/miliLab/mediapipe_example.png" alt="mililab-cover" class="grid-image">
-            <p>Used bodytracking software to enhance a heartbeat detection algorithm.</p>
+            <p>Used body-tracking software to enhance a heartbeat detection algorithm.</p>
           </div>
-        </section>
-      </div>
+        </div>
 
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <span>Sonam Okuda</span>
+      <a href="mailto:sonam.okuda@cooper.edu">sonam.okuda@cooper.edu</a>
     </div>
+  </footer>
 
 </body>
 </html>
