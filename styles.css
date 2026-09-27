@@ -146,3 +146,7 @@
     .project-grid{grid-template-columns:1fr;}
     .contact-grid{grid-template-columns:1fr;}
   }
+
+  .imgContainer{
+    float:left;
+  }

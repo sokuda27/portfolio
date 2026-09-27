@@ -34,11 +34,17 @@
 
     <h2>Final Project</h2>
 
-    <p>The block pick-and-place algorithm we chose was fairly straightforward; the camera on the Franka arm would detect the April tag on the block and return a pose, enabling us to calculate the joint positions necessary to pick up the block. Then, the arm, knowing the goal region, would move the block over and place it, keeping track of how many blocks had been stacked previously to calculate the required height. The algorithm ran an RRT path finding function to sample a collision-free trajectory between the poses before solving for the joint positions. Our algorithm ran extremely reliably, achieving a 100% success rate on competition day, as we had tested throughly to calibrate the offsets and reduce the sim-to-real gap.</p>
+    <p>The block pick-and-place algorithm we chose was fairly straightforward; the camera on the Franka arm would detect the April tag on the block and return a pose, enabling us to calculate the joint positions necessary to pick up the block. Then, the arm, knowing the goal region, would move the block over and place it, keeping track of how many blocks had been stacked previously to calculate the required height. The algorithm ran an RRT path finding function to sample a collision-free trajectory between the poses before solving for the joint positions. Our algorithm ran extremely reliably, achieving a 100% success rate on competition day without collisions, as we had tested throughly to calibrate the offsets and reduce the sim-to-real gap.</p>
 
     <section id="photos">
-      <img src="../project-images/meam510/510_cad.png" alt="CAD" class="proj-img">
+      <div class="proj-img">
+        <video controls width="600">
+          <source src="../project-images/meam520/5200 FINAL.mp4" type="video/mp4">
+        </video>
+      </div>
     </section>
+
+    <p>Further detail can be found <a href="https://github.com/sokuda27/meam5200-final.git"> here.</a> </p>
   
   </main>
 </body>
