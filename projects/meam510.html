@@ -28,28 +28,34 @@
   <main>
     <h1 class="proj-title">MEAM5100: Design for Mechatronic Systems</h1>
     <section id="description">
-        <p> The aim of this course was to allow students to develop advanced hardware skill and gain experience designing and handling electronics. The final project was to design and manufacture a semi-autonomous robot.</p>
+        <p> The aim of this course was to allow students to develop advanced hardware skill and gain experience designing and handling electronics. The final project was to design and manufacture a semi-autonomous robot that could complete various tasks such as flicking switches, pressing buttons, and completing laps around the arena.</p>
         <br>
-        <p>To study the application of SVD, a dataset on the wake of an airfoil was analyzed. The velocties were reconstructed by inspecting the eigenvalues and modes.</p>
     </section>
 
+    <h2>Hardware Design and CAD</h2>
+
+    I was in charge of the mechanical design of the robot; because of the size constraints, my team opted for a two-layer robot to house the microcontroller and motors on the lower level, while hosting the Vive sensor and switches on the upper level. The time-of-flight (TOF) sensors were mounted on the bottom layer to allow the robot to wall follow.
+
     <section id="photos">
-      <img src="../project-images/ddc/recon_ux.jpg" alt="Velocity Reconstruction" class="proj-img">
+      <img src="../project-images/meam510/510_cad.png" alt="CAD" class="proj-img">
+      <img src="../project-images/meam510/510_drawing.png" alt="CAD" class="proj-img">
     </section>
+
+    <h2>Circuit Design</h2>
 
     <section id="description">
-      <p>More techniques, such as eigensystem realization, sparse-identification of nonlinear dynamics, and dynamic mode decomposition were studied and used.</p>
-      <br>
-      <p>
-        For my final project, I reconstructed the stock value of the top S&P500 companies to predict stock value and trend.
-      </p>
+      <p>As the hardware lead for this project, I was also in charge of designing the circuitry. I soldered microcontrollers (ESP32-C3 and S2), TOF sensors, H-bridges, motor drivers, and DC motors to a central perf board, ensuring that electrical connection was reliable and that sensor data could be sent over the appropriate I2C buses.</p>
     </section>
 
     <section id="photos">
-      <img src="../project-images/ddc/final/comp_6.png" alt="Velocity Reconstruction" class="proj-img">
+      <img src="../project-images/meam510/510_circuit.png" alt="Circuitry Design" class="proj-img">
     </section>
 
-    <p>Further detail can be found <a href="https://github.com/sokuda27/ME493"> here.</a> </p>
+    <h2>Final Design</h2>
+
+    <section id="photos">
+      <img src="../project-images/meam510/IMG_4202.HEIC" alt="Final Design" class="proj-img">
+    </section>
   
   </main>
 </body>
