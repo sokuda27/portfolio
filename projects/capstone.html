@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redesigned Garden Shears for Disabled Users</title>
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Sonam Okuda</h1>
+  </header>
+
+  <!-- Navigation Menu -->
+<nav>
+  <ul>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../index.html#projects">Projects</a></li>
+    <li><a href="../index.html#contact">Contact</a></li>
+  </ul>
+</nav>
+
+  <!-- Main Content -->
+  <main>
+    <h1 class="proj-title">Capstone Project for Senior Design: Garden Shears</h1>
+    <section id="description">
+        <p> For my capstone project, .</p>
+        <br>
+    </section>
+
+    <h2>Final Project</h2>
+
+    <p>The block pick-and-place algorithm we chose was fairly straightforward; the camera on the Franka arm would detect the April tag on the block and return a pose, enabling us to calculate the joint positions necessary to pick up the block. Then, the arm, knowing the goal region, would move the block over and place it, keeping track of how many blocks had been stacked previously to calculate the required height. The algorithm ran an RRT path finding function to sample a collision-free trajectory between the poses before solving for the joint positions. Our algorithm ran extremely reliably, achieving a 100% success rate on competition day, as we had tested throughly to calibrate the offsets and reduce the sim-to-real gap.</p>
+
+    <section id="photos">
+      <img src="../project-images/meam510/510_cad.png" alt="CAD" class="proj-img">
+    </section>
+  
+  </main>
+</body>
+</html>
