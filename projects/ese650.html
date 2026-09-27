@@ -27,13 +27,68 @@
     <h1 class="proj-title">Learning in Robotics Coursework - In Progress</h1>
     <section id="description">
         <p> The aim of this course was to teach students a variety of learning algorithms for robotic implementation; coursework included learning an MDP, SLAM using a particle filter, and training a NeRF on image data.</p>
-        <br>
     </section>
 
+    <!-- Policy iteration -->
+    <h2>Policy Iteration on an MDP</h2>
+
+    <figure class="fig-group">
+      <div class="img-grid-2">
+        <img src="../project-images/ese650/iter_0.png" alt="Policy iteration step 0">
+        <img src="../project-images/ese650/iter_1.png" alt="Policy iteration step 1">
+        <img src="../project-images/ese650/iter_2.png" alt="Policy iteration step 2">
+        <img src="../project-images/ese650/iter_3.png" alt="Policy iteration step 3">
+      </div>
+      <figcaption>Policy iteration, steps 0–3.</figcaption>
+    </figure>
+
+    <figure class="fig-group fig-single">
+      <img src="../project-images/ese650/iter_4.png" alt="Final policy">
+      <figcaption>Final policy.</figcaption>
+    </figure>
+
+    <!-- SLAM -->
     <h2>SLAM using a particle filter, EKF implementation</h2>
 
-    <h2> NeRF Training </h2>
-  
+    <figure class="fig-group">
+      <div class="img-grid-2">
+        <img src="../project-images/ese650/odometry_00.jpg" alt="Trajectory using onboard odometry, sequence 00">
+        <img src="../project-images/ese650/slam_00.jpg" alt="SLAM result for sequence 00">
+      </div>
+      <figcaption>Sequence 00: onboard odometry alone (left) vs. particle filter SLAM (right).</figcaption>
+    </figure>
+
+    <figure class="fig-group">
+      <div class="img-grid-2">
+        <img src="../project-images/ese650/slam_01.jpg" alt="SLAM result for sequence 01">
+        <img src="../project-images/ese650/slam_01_noisy.jpg" alt="SLAM result for sequence 01 with added noise">
+      </div>
+      <figcaption>Sequence 01: standard run (left) and with added noise (right).</figcaption>
+    </figure>
+
+    <figure class="fig-group fig-single">
+      <img src="../project-images/ese650/slam_02.jpg" alt="SLAM result for sequence 02">
+      <figcaption>Sequence 02.</figcaption>
+    </figure>
+
+    <figure class="fig-group fig-wide">
+      <img src="../project-images/ese650/slam_03.jpg" alt="SLAM result for sequence 03">
+      <figcaption>Sequence 03.</figcaption>
+    </figure>
+
+    <!-- NeRF -->
+    <h2>NeRF Training</h2>
+
+    <figure class="fig-group">
+      <div class="img-grid-2">
+        <img src="../project-images/ese650/my_nerf_0.png" alt="NeRF render 0">
+        <img src="../project-images/ese650/my_nerf_20.png" alt="NeRF render 20">
+        <img src="../project-images/ese650/my_nerf_40.png" alt="NeRF render 40">
+        <img src="../project-images/ese650/my_nerf_90.png" alt="NeRF render 90">
+      </div>
+      <figcaption>Rendered images from the trained NeRF.</figcaption>
+    </figure>
+
   </main>
 </body>
 </html>
