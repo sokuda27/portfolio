@@ -36,13 +36,7 @@
 
     <p>The block pick-and-place algorithm we chose was fairly straightforward; the camera on the Franka arm would detect the April tag on the block and return a pose, enabling us to calculate the joint positions necessary to pick up the block. Then, the arm, knowing the goal region, would move the block over and place it, keeping track of how many blocks had been stacked previously to calculate the required height. The algorithm ran an RRT path finding function to sample a collision-free trajectory between the poses before solving for the joint positions. Our algorithm ran extremely reliably, achieving a 100% success rate on competition day without collisions, as we had tested throughly to calibrate the offsets and reduce the sim-to-real gap.</p>
 
-    <section id="photos">
-      <div class="proj-img">
-        <video controls width="600">
-          <source src="../project-images/meam520/5200 FINAL.mp4" type="video/mp4">
-        </video>
-      </div>
-    </section>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/n-i858bn8hk?si=CaVWPTh7yp51GnOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   
   </main>
 </body>
